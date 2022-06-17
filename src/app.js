@@ -20,7 +20,7 @@ app.get("/food", (req, res) => {
         "Bolacha Pacote 60g",
         "Refrigerante 600 ml",
         "Refrigerante 250 ml",
-        "banana (1unidade) 100g"
+        "Banana (1unidade) 100g"
     ]
 
     return res.status(200).json({
@@ -76,4 +76,4 @@ app.get("/historic", (req, res) => {
     })
 })
 
-app.listen(3000, () => console.log("Serve is running 🐱‍🏍"))
+app.listen(8080, () => console.log("Serve is running 🐱‍🏍"))
